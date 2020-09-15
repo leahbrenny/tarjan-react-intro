@@ -1,3 +1,36 @@
+
+
+npx-create-react-app tarjan-react-intro --scripts-version 2.1.8
+-- This creates a new directory named `tarjan-react-intro` open it in VS
+
+npm start
+--starts the app
+
+## React vs jQuery
+```js
+$(document).on('click', '.myBtn', onClick);
+function onClick(){
+let name = "Leah";
+$('#MyElement').append(`
+<h1>Hello World</h1>
+`);
+}
+```
+
+In React
+```js
+class MyApp extends Component {
+    state = {
+        name: 'Leah'
+    }
+
+    render() {
+        return(
+            <h1>Hello World My Name is {name}</h1>
+        );
+    }
+}
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
